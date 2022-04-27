@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  style= 100%; lang="en">
+<html lang="en">
 <head>
     <link rel="shortcut icon" href="https://i.pinimg.com/originals/75/36/54/75365486ad616e3a01ab6e401c2389df.jpg">
     <meta charset="UTF-8">
@@ -21,6 +21,25 @@
     background-color: bisque;
     background-attachment: fixed;
     }
+    .sign{
+        text-align: left;
+        position: relative;
+        top: 300px;
+        color:black;
+        font-size: 20px;
+        
+    }
+    #textnewsletter{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .postnw{
+       position: relative;
+       top: 250px;
+    }
+    #cup{
+       position: relative;
+       bottom: 100px;
+       }
 </style>
 <main> 
 <body class="background-image">
@@ -43,17 +62,20 @@
           -Coffee helps you focus and stay alert<br>
           -Coffee reduces risk of cancers<br>
 </p></center>
-
-<img src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-de-Coffe-PNG-1017x1024.png"width="25%" align="right">
 <br>
-<p align="left">NEWSLETTER</p>
-<form action="D:\Coisas\formact.html" method="get">
+<diV class="postnw">
+<p id="textnewsletter">NEWSLETTER</p>
+<form action="D:\Coisas\formact.html" method="post">
     <input type="text" id="email" name="email" placeholder="e-mail" required>
     <input type="submit" value="Submit" class="button-text">
 </form>
+</div>
 </main>
 <footer>
-<p align="right">By Pedro M. Brum</p>
+<div>
+<img id=cup src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-de-Coffe-PNG-1017x1024.png"width="35%" align="right">
+<p class="sign">By Pedro Brum</p>
+</div>
 
 </footer>
 </body>
