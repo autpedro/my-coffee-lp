@@ -13,18 +13,13 @@
     .text-red{color: red; font-family: Lobster;}
     .text-brown{color:brown; font-family: Lobster;}
     h1{font-family: Lobster; font-size: 50px;}
-    .background-image{ background-image:url("https://i.pinimg.com/originals/59/12/72/591272c59f7307f3202202b449338122.jpg");
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-color: bisque;
-    background-attachment: fixed;
-    }
-    .sign{
-        text-align: left;
+    .background-image{ background-color: #ba9a8e;
+background-image: linear-gradient(315deg, #ba9a8e 0%, #96705b 74%);}
+
+.sign{
+        text-align: right;
         position: relative;
-        top: 300px;
+        top: 120px;
         color:black;
         font-size: 20px;
         
@@ -34,23 +29,52 @@
     }
     .postnw{
        position: relative;
-       top: 250px;
+       top: 200px;
     }
     #cup{
+       width: 150px;
        position: relative;
-       bottom: 100px;
+       top:100px;
+       
        }
-</style>
-<main> 
-<body class="background-image">
-    
-<h1 align=center class="text-red">Coffee
-</h1>
+    header{border-bottom-style:solid ;
 
+    }
+    a{
+      text-decoration: none;
+      color:white ;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    ul{
+        text-align: center;
+        list-style-type:none;
+        padding: 20px;
+        width: 350px;
+        position: relative;
+        left: 550px;
+        top: 150px;
+    }
+    ul li{ 
+        text-align: center;
+        display: inline;
+        margin-left: 8px;
+       
+    }
+    .rodape{
+        left: 500px;
+    }
+ 
+</style>
+<body class="background-image">
+<header>  
+<h1 align=center class="text-red">Coffee</h1>
 <h3 align="center">
     A coffee lover's site!
 </h3>
-
+</header>
+<main>
 <a target="_blank" href=""><!---Store url goes here---> <p align="center">Buy coffee</p></a>
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Eucalyp-Deus_Coffee.png" width="25%"></center>
 
@@ -62,18 +86,26 @@
           -Coffee helps you focus and stay alert<br>
           -Coffee reduces risk of cancers<br>
 </p></center>
+<img id=cup src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-de-Coffe-PNG-1017x1024.png"width="35%" align="right">
+</main>
 <br>
-<diV class="postnw">
+<footer>
+<div class="postnw">
 <p id="textnewsletter">NEWSLETTER</p>
-<form action="D:\Coisas\formact.html" method="post">
+<form action="D:\Coisas\formact.html" method="get">
     <input type="text" id="email" name="email" placeholder="e-mail" required>
-    <input type="submit" value="Submit" class="button-text">
+    <input type="submit" name="email" value="Submit" class="button-text">
 </form>
 </div>
-</main>
-<footer>
+<div class="rodape">
+<ul>
+    <a href="#" target="_blank"><li>Politics</li></a>
+    <a href="#" target="_blank"><li>Team</li></a>
+    <a href="#" target="_blank"><li>Contact</li></a>
+    <a href="#" target="_blank"><li>Support</li></a>
+    </ul>
+</div>
 <div>
-<img id=cup src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Desenho-de-Coffe-PNG-1017x1024.png"width="35%" align="right">
 <p class="sign">By Pedro Brum</p>
 </div>
 
